@@ -20,7 +20,7 @@ function Footer() {
   return (
     <section className="footer__section">
     <div className="footer">
-      <div className="footer1">
+      <div className="foot_1">
         <img src={logo} alt="logo" className="w-28" />
         <form>
           <select>
@@ -38,7 +38,7 @@ function Footer() {
         </span>
       </div>
 
-      <div className="footer2">
+      <div className="foot_2">
         <h5>Company</h5>
         {company.map((_item) => (
           <p>{_item}</p>
@@ -50,25 +50,25 @@ function Footer() {
         ))}
       </div>
 
-      <div className="footer3">
-        <h5>Individuals</h5>
+      <div className="foot_3">
+        <h4>Individuals</h4>
         {individuals.map((_item) => (
           <p>{_item}</p>
         ))}
 
-        <h5 className="business">Business</h5>
+        <h4 className="business">Business</h4>
         {businesses.map((_item) => (
           <p>{_item}</p>
         ))}
 
-        <h5 className="developers">Developers</h5>
+        <h4 className="developers">Developers</h4>
         {developers.map((_item) => (
           <p>{_item}</p>
         ))}
       </div>
 
-      <div className="footer4">
-        <h5>Support</h5>
+      <div className="foot_4">
+        <h4>Support</h4>
         {support.map((_item) => (
           <p>{_item}</p>
         ))}
