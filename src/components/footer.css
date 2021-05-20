@@ -41,7 +41,7 @@
   border: 1px solid #0080ff;
 }
 
-.footer1 p:hover {
+.foot_1 p:hover {
   text-decoration: none;
   color: #838fa0;; 
 }
@@ -55,22 +55,22 @@
   color: #0080ff;
 }
 
-.footer1 img{
+.foot_1 img{
   margin-bottom: 35px;
 }
-.footer2{
+.foot_2{
   grid-template-columns: auto;
   grid-template-rows: repeat(2, auto);
   
 }
 
-.footer3{
+.foot_3{
   grid-template-columns: auto;
   grid-template-rows:repeat(3, auto);
   
 }
 
-.footer4{
+.foot_4{
   grid-template-columns: auto;
   grid-template-rows: auto;
   
@@ -89,7 +89,7 @@
 }
 
 @media (max-width: 556px) {
-  .footer1{
+  .foot_1{
     grid-template-rows: 0.5fr;
     margin-bottom: 35px;
   }
@@ -97,10 +97,10 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, auto);
     grid-template-areas:
-      "footer1"
-      "footer2"
-      "footer3"
-      "footer4"
+      "foot_1"
+      "foot_2"
+      "foot_3"
+      "foot_4"
   }
 }
 
