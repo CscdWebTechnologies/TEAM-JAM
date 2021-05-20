@@ -124,8 +124,7 @@ const CoinRow = ({ id, icon, name, code, price, change, chart }) => {
 					<div
 						className={`whitespace-nowrap text-right text-lg ${
 							change < 0 ? "text-red-600" : "text-green-600"
-						}`}
-					>
+						}`}>
 						{change < 0 ? `${change}%` : `+${change}%`}
 					</div>
 				</td>
@@ -141,21 +140,18 @@ const CoinTable = () => {
 				<div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
 					<div
 						className="shadow overflow-hidden border-b border-gray-200"
-						style={{ borderRadius: "4px" }}
-					>
+						style={{ borderRadius: "4px" }}>
 						<table className="min-w-full divide-y divide-gray-200">
 							<thead className="bg-white">
 								<tr className="hidden lg:table-row">
 									<th
 										scope="col"
-										className="pl-10 py-5 text-left text-xs text-gray-600 font-light tracking-wider"
-									>
+										className="pl-10 py-5 text-left text-xs text-gray-600 font-light tracking-wider">
 										#
 									</th>
 									<th
 										scope="col"
-										className="pr-3 py-5 text-left text-xs text-gray-600 font-light tracking-wider"
-									>
+										className="pr-3 py-5 text-left text-xs text-gray-600 font-light tracking-wider">
 										Name
 									</th>
 									<th
@@ -193,8 +189,7 @@ const CoinTable = () => {
 										code={_item.code}
 										price={_item.price}
 										change={_item.change}
-										chart={_item.chart}
-									/>
+										chart={_item.chart}/>
 								))}
 							</tbody>
 						</table>
