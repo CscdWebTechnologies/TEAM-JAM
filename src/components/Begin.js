@@ -4,7 +4,7 @@ import { ReactComponent as Phone } from "../Assets/phone.svg";
 
 const Begin = () => {
 	return (
-		<div className="px-6 md:px-10 lg:px-16 grid grid-cols-1 lg:grid-cols-2 pb-10 pt-20 lg:max-w-6xl w-full mx-auto">
+		<div className="px-6 md:px-10 lg:px-16 grid grid-cols-1 lg:grid-cols-2 pb-1 pt-20 lg:max-w-6xl w-full mx-auto">
 			<div className="flex mt-10 lg:mt-0">
 				<div className="my-auto">
 					<div className="flex">
@@ -15,8 +15,8 @@ const Begin = () => {
 						<Arrow className="my-auto" />
 					</div>
 
-					<p className="font-semibold text-3xl md:text-6xl lg:text-7xl mb-4 max-w-md mt-5 md:mt-2">
-						Jump start your crypto portfolio
+					<p className="font-semibold text-4xl md:text-6xl  mb-6 max-w-md mt-10 md:2 ">
+						Jump start <br/>your crypto portfolio
 					</p>
 					<p className="text-md text-gray-600 md:text-xl md:text-black md:font-medium lg:font-semibold">
 						Coinbase is the easiest place to buy and sell
@@ -43,8 +43,8 @@ const Begin = () => {
 				</div>
 			</div>
 
-			<div className="w-full ml-10 hidden lg:block">
-				<Phone className="w-full" />
+			<div className="ml-6 hidden lg:block">
+				<Phone className="w-5/6" />
 			</div>
 		</div>
 	);
