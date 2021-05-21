@@ -2,7 +2,7 @@ import { ReactComponent as BTC } from "../Assets/bitcoin-blue.svg";
 import { ReactComponent as Arrow } from "../Assets/right-arrow.svg";
 import { ReactComponent as Phone } from "../Assets/phone.svg";
 
-const Hero = () => {
+const Begin = () => {
 	return (
 		<div className="px-6 md:px-10 lg:px-16 grid grid-cols-1 lg:grid-cols-2 pb-10 pt-20 lg:max-w-6xl w-full mx-auto">
 			<div className="flex mt-10 lg:mt-0">
@@ -50,4 +50,4 @@ const Hero = () => {
 	);
 };
 
-export default Hero;
+export default Begin;
